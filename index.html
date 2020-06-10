@@ -3,8 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML</title>
+    <style type="text/css">
+    	p{
+    		line-height:30px;
+    		margin-left: 30px;
+    	}
+    	input,textarea{
+    		margin-left: 30px;
+    	}
+    	table td{
+			padding: 6px;
+		}
+    </style>
 </head>
 <body>
+	<h2>Unifed Modeling Language Theory Test</h2>
+	<table border="0" >
+		<tr>
+			<td>Test Subject:</td>
+			<td>Unified Modeling Language</td>
+			<td>Time:</td>
+			<td>100 minute</td>
+			<td>Score:</td>
+			<td>100</td>
+		</tr>
+		<tr>
+			<td>Class:</td>
+			<td>
+				<select style="width: 100%">
+				  <option value="c1">Class 1</option>
+				  <option value="c2">Class 2</option>
+				  <option value="c3">Class 3</option>
+				</select>
+			</td>
+			<td>Student ID:</td>
+			<td><input type="text" name="stuID" required="required"></td>
+			<td>Name:</td>
+			<td><input type="text" name="stuName" required="required"></td>
+		</tr>
+	</table>
 
+	<h2>1、Fill in the blanks(5 points per space,20 points total)</h2>
+	<p>1.The full name of UML in Chinese is:<input type="text" name="name" required="required"></p>
+	<p>2.The most prominent feature of the object is:
+		<input type="text" name="f1" required="required">
+		<input type="text" name="f2" required="required">
+		<input type="text" name="f3" required="required">
+	</p>
+
+	<h2>2、Multiple choice question(10 points per space,20 points total)</h2>
+	<p>1.The relationshio between UML and software enginerring is:<br>
+		<input type="radio" name="sel1">(A)UML is enginering<br>
+		<input type="radio" name="sel1">(B)UML parti hhhhhhhhhhhh in software enginerring<br>
+		<input type="radio" name="sel1">(C)UML is nothing to do with engineering<br>
+		<input type="radio" name="sel1">(D)UML is party of enginerring<br>
+	</p>
+	<p>2.Java language support:<br>
+		<input type="radio" name="sel2">(A)Single inheritance<br>
+		<input type="radio" name="sel2">(B)Multiple inheritance<br>
+		<input type="radio" name="sel2">(C)Single inheritance and multyipke support<br>
+		<input type="radio" name="sel2">(D)Single in and multiple inheritance are not support<br>
+	</p>
+
+	<h2>3、Multiple choice(10 points per space,20 points total)</h2>
+	<p>1.Briefly describe what the model is and following three parts:<br>
+		<input type="checkbox" name="a1">(A)Overview level<br>
+		<input type="checkbox" name="b1">(B)Demand level<br>
+		<input type="checkbox" name="c1">(C)User target level<br>
+		<input type="checkbox" name="d1">(D)Sub-function level<br>
+	</p>
+	<p>2.In the describe what and how it a three parts:<br>
+		<input type="checkbox" name="a1">(A)Name<br>
+		<input type="checkbox" name="b1">(B)Attribute<br>
+		<input type="checkbox" name="c1">(C)Operation<br>
+		<input type="checkbox" name="d1">(D)Function<br>
+	</p>
+
+	<h2>4、True or False(10 points per space,20 points total)</h2>
+	<p>1.Briefly describe what the model is and to detemine demand。
+		<input type="radio" name="sel3">√
+		<input type="radio" name="sel3">x
+	</p>
+	<p>2.In the describe what and how it a state diagram。
+		<input type="radio" name="sel4">√
+		<input type="radio" name="sel4">x
+	</p>
+
+	<h2>5、Short answer question(20 points per space,20 points total)</h2>
+	<p>1.Briefly describe what the model is and how it behaves?</p>
+	<textarea style="width: 30%;height: 100px;">A model......</textarea>
+	<p><button type="submit">Calculating score</button></p>
 </body>
 </html>
